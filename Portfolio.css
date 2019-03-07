@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'Futura'
+    src: url('fonts/Futura.eot');
+    src: url('fonts/Futura.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Futura.woff') format('woff'),
+         url('fonts/Futura.ttf') format('truetype'),
+         url('fonts/Futura.svg#rsuregular') format('svg');
+
+}
+@font-face {
+    font-family: 'AlexandriaFLF';
+    src: url('fonts/AlexandriaFLF.eot');
+    src: url('fonts/AlexandriaFLF.eot?#iefix') format('embedded-opentype'),
+         url('fonts/AlexandriaFLF.woff') format('woff'),
+         url('fonts/AlexandriaFLF.ttf') format('truetype'),
+         url('fonts/AlexandriaFLF.svg#rsuregular') format('svg');
+}
+
+body, html {
+  margin:0;
+  padding:0;
+  line-height: 1.5em;
+  height: 100%;
+  width: 100%;
+}
+body {
+  position: relative;
+  width: 100%;
+  border: 1px solid red;
+  display: block;
+}
+
+body > *  {
+  margin: auto;
+  width: 500px;
+  border: 1px solid blue;
+  display: block;
+  overflow: auto;
+}
+
+/*body > script {
+  display: none
+}*/
+/*navigation*/
+#nav {
+  height: 50px;
+  width: 100%;
+  /*background: #c9fff6;*/
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline-block;
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px;
+  font-family: Futura;
+  text-transform: uppercase;
+  font-size: 10px;
+  text-decoration: none;
+}
+/*about*/
+header {
+  height: 150px;
+  width: 100%;
+  position: relative;
+}
+h1 {
+  font-family: Futura;
+  font-weight: bolder;
+  position: relative;
+  margin-right: 20px;
+}
+h2 {
+  font-family: AlexandriaFLF;
+  font-weight: normal;
+  float: right;
+  margin-right: 20px;
+}
+/*work*/
+/*section {
+    max-width:700px;*/
+}
+
+table img {
+     object-fit: cover;
+     width: 200px;
+     height:200px;
+
+}
